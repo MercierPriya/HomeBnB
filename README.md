@@ -15,3 +15,13 @@ Backend : JSON Server (API simulée)
 Frameworks/Librairies :
 FontAwesome (pour les icônes)
 Fetch API (pour les requêtes HTTP)
+
+
+
+Installez JSON Server si ce n'est pas déjà fait :
+
+npm install -g json-server
+
+Lancez le serveur JSON :
+
+npx json-server data.json
