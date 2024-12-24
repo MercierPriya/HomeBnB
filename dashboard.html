@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="dashboard.css">
+    <title>Dashboard</title>
+</head>
+<body>
+    <link rel="shortcut icon" href="../pics/logo-color.png">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/e2c85c6e3e.js" crossorigin="anonymous"></script>
+  
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.6.0/uicons-bold-rounded/css/uicons-bold-rounded.css'>
+
+  
+    <header>
+      <nav class="navbar navbar-expand-lg text-align-center" data-bs-theme="dark">
+          <div class="container-fluid">
+              <a class="navbar-brand" href="./home.html"><img id="logo" src="./icons/homebnb.svg" alt="logo" style="width: 50px;background-color:whitesmoke;border-radius: 50px;"></a>
+ 
+              <button class="navbar-toggler justify-content-center" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fi fi-br-menu-burger"></i>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                  <ul class="navbar-nav ms-auto mb-2 mb-lg-0 justify-content-center">
+                      <li class="nav-item text-center">
+                          <a class="nav-link text-white m-2" href="./home.html">Home</a>
+                      </li>
+                      <li class="nav-item text-center">
+                          <a class="nav-link text-white m-2" id="gerer" href="#anounce-list">Gérer mes annonces</a>
+                      </li>
+                      <li class="nav-item text-center">
+                          <button type="button" id="ajouter"class="btn btn-light m-2">Nouvelle L'Annonce</button>
+                      </li>
+                      <li class="nav-item text-center">
+                          <button type="button" id="logout" class="btn btn-light m-2">Logout</button>
+                      </li>
+                  </ul>
+              </div>
+          </div>
+      </nav>
+  </header>
+ 
+  
+    <section style="display:none;">
+        <div> <h2>Ajouter une nouvelle annonce Homebnb</h2></div>
+    
+    <form id="homebnbForm">
+
+       
+        
+        <label for="title">Titre de l'annonce :</label>
+        <input type="text" id="title" name="title" required><br><br>
+
+        <label for="place">Lieu :</label>
+        <input type="text" id="place" name="place" required><br><br>
+
+        <label for="rooms">Nombre de pièces :</label>
+        <input type="number" id="rooms" name="rooms" required><br><br>
+
+        <label for="available">Disponible :</label>
+        <select id="available" name="available" required>
+            <option value="true">Oui</option>
+            <option value="false">Non</option>
+        </select><br><br>
+
+        <h2 style="text-align: center;">Update Availability Date</h2>
+         <form id="availability-form">
+    <label for="month">Month:</label>
+    <input type="text" id="month" name="month" placeholder="Enter month (e.g., Janvier)" required>
+
+    <label for="days">Days (comma-separated):</label>
+    <input type="text" id="days" name="days" placeholder="Enter days (e.g., 5, 20)" required>
+          
+    <label for="price_per_night">Price per nuit :</label>
+        <input type="number" id="price_per_night" name="price_per_night" required><br><br>
+
+        <label for="accommodates">Capacité (personnes) :</label>
+        <input type="number" id="accommodates" name="accommodates" required><br><br>
+
+        <label for="parking">Parking :</label>
+        <input type="text" id="parking" name="parking" required><br><br>
+
+        <label for="amenities">Équipements (séparés par une virgule) :</label>
+        <input type="text" id="amenities" name="amenities" required><br><br>
+
+        <label for="photo">Lien de l'image :</label>
+        <input type="text" id="photo" name="photo" required><br><br>
+
+        <button type="submit">Ajouter l'annonce</button>
+    </form>
+    <div id="message"></div>
+    <div id="messageDashboard"></div>
+</section>
+    
+<div id="anounce-list" style="display:none"></div>
+
+
+ 
+    <script src="dashboard.js"></script>
+</body>
+</html>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>HomeBnB</title>
+
+</head>
+<body>
+    <div class="search-bar" style="display: flex; align-items: center;justify-content: center;column-gap:100px">
+    <span style=" font-size: 24px; color: #87bdd8;"><input href="#" style="background-image: url(icons/logo.svg);background-color:#fbfcfa;border-radius:50px; background-repeat: no-repeat; height: 60px; width: 60px; border: none;  margin-top: 20px;">HomeBnB</span>
+    
+    <form id="form-search">
+        <input type="text" id="city-search" placeholder="Rechercher une ville..." style="background-color:#a1c3d5;color:#252525; border: none; padding: 5px; margin-block: 5px; border-radius: 10px; margin-right: 20px; padding: 10px;">
+        <button id="search-button" type="submit" style="background-color:#a1c3d5;color:#252525; border: none; margin-block: 5px; border-radius: 10px; margin-right: 20px; padding: 10px;">Rechercher</button>
+    
+    </form>   
+        <nav style="display: flex; flex-direction: row; align-items: flex-end; margin-top: 20px;">
+            <a href="dashboard.html"><input style="background-color: #87bdd8; border: none; padding: 5px; margin-block: 5px; border-radius: 10px; margin-right: 20px;" value="Profil" type="submit"></a>
+            <a href="indexlogin.html"><input style="background-color: #87bdd8; border: none; padding: 5px; margin-block: 5px; border-radius: 10px; margin-right: 20px;" value="Se déconnecter" type="submit"></a>
+        </nav>
+    </div>
+    <main><div id="anounce-list" style="margin-top: 20px;"></div>
+    </main>
+    
+    <script src="script.js"></script>
+
+</body>
+</html>

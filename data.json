@@ -1,0 +1,562 @@
+{
+  "anounces": [
+    {
+      "userId": "1",
+      "id": "1",
+      "title": "Maison moderne avec piscine privée",
+      "place": "Nice, France",
+      "rooms": 4,
+      "available": true,
+      "accommodates": 8,
+      "parking": "Privé",
+      "amenities": [
+        "Piscine",
+        "Wi-Fi",
+        "Cuisine équipée",
+        "Climatisation"
+      ],
+      "photo": "maison1.jpg",
+      "price_per_night": 350,
+      "availability_range": {
+        "month": "Janvier",
+        "days": [
+          5,
+          20
+        ]
+      }
+    },
+    {
+      "userId": "2",
+      "id": "2",
+      "title": "Chalet en bois dans les montagnes",
+      "place": "Chamonix, France",
+      "rooms": 3,
+      "available": false,
+      "accommodates": 6,
+      "parking": "Gratuit sur place",
+      "amenities": [
+        "Cheminée",
+        "Vue montagne",
+        "Terrasse",
+        "Jacuzzi"
+      ],
+      "photo": "maison2.jpg",
+      "price_per_night": 280,
+      "availability_range": {
+        "month": "Février",
+        "days": [
+          15,
+          28
+        ]
+      }
+    },
+    {
+      "userId": "1",
+      "id": "3",
+      "title": "Appartement luxueux vue mer",
+      "place": "Marseille, France",
+      "rooms": 2,
+      "available": true,
+      "accommodates": 4,
+      "parking": "Pas de parking",
+      "amenities": [
+        "Balcon",
+        "Climatisation",
+        "Wi-Fi",
+        "Proche plage"
+      ],
+      "photo": "maison3.jpg",
+      "price_per_night": 200,
+      "availability_range": {
+        "month": "Mars",
+        "days": [
+          10,
+          25
+        ]
+      }
+    },
+    {
+      "userId": "2",
+      "id": "4",
+      "title": "Loft industriel en centre-ville",
+      "place": "Lyon, France",
+      "rooms": 2,
+      "available": true,
+      "accommodates": 3,
+      "parking": "Public à proximité",
+      "amenities": [
+        "Wi-Fi",
+        "Cuisine moderne",
+        "Design industriel",
+        "Ascenseur"
+      ],
+      "photo": "maison4.jpg",
+      "price_per_night": 180,
+      "availability_range": {
+        "month": "Avril",
+        "days": [
+          1,
+          15
+        ]
+      }
+    },
+    {
+      "userId": "2",
+      "id": "5",
+      "title": "Villa spacieuse avec jardin",
+      "place": "Toulouse, France",
+      "rooms": 5,
+      "available": true,
+      "accommodates": 10,
+      "parking": "Privé",
+      "amenities": [
+        "Jardin",
+        "Piscine",
+        "Barbecue",
+        "Salle de jeux"
+      ],
+      "photo": "maison5.jpg",
+      "price_per_night": 400,
+      "availability_range": {
+        "month": "Mai",
+        "days": [
+          5,
+          30
+        ]
+      }
+    },
+    {
+      "userId": "2",
+      "id": "6",
+      "title": "Maison de campagne authentique",
+      "place": "Provence, France",
+      "rooms": 3,
+      "available": false,
+      "accommodates": 5,
+      "parking": "Gratuit",
+      "amenities": [
+        "Cheminée",
+        "Terrasse",
+        "Vue sur les champs",
+        "Cuisine équipée"
+      ],
+      "photo": "maison6.jpg",
+      "price_per_night": 220,
+      "availability_range": {
+        "month": "Juin",
+        "days": [
+          10,
+          25
+        ]
+      }
+    },
+    {
+      "userId": "2",
+      "id": "7",
+      "title": "Penthouse avec vue panoramique",
+      "place": "Paris, France",
+      "rooms": 3,
+      "available": true,
+      "accommodates": 6,
+      "parking": "Public payant",
+      "amenities": [
+        "Balcon",
+        "Wi-Fi",
+        "Ascenseur",
+        "Climatisation"
+      ],
+      "photo": "maison7.jpg",
+      "price_per_night": 500,
+      "availability_range": {
+        "month": "Septembre",
+        "days": [
+          3,
+          18
+        ]
+      }
+    },
+    {
+      "userId": "1",
+      "id": "8",
+      "title": "Gîte cosy en pleine nature",
+      "place": "Ardèche, France",
+      "rooms": 2,
+      "available": true,
+      "accommodates": 4,
+      "parking": "Gratuit",
+      "amenities": [
+        "Jardin",
+        "Animaux acceptés",
+        "Barbecue",
+        "Randonnées à proximité"
+      ],
+      "photo": "maison8.jpg",
+      "price_per_night": 150,
+      "availability_range": {
+        "month": "Novembre",
+        "days": [
+          7,
+          22
+        ]
+      }
+    },
+    {
+      "userId": "1",
+      "id": "9",
+      "title": "Studio proche des stations de ski",
+      "place": "Annecy, France",
+      "rooms": 1,
+      "available": true,
+      "accommodates": 2,
+      "parking": "Public",
+      "amenities": [
+        "Proche ski",
+        "Wi-Fi",
+        "Cuisine équipée"
+      ],
+      "photo": "maison9.jpg",
+      "price_per_night": 120,
+      "availability_range": {
+        "month": "Décembre",
+        "days": [
+          12,
+          28
+        ]
+      }
+    },
+    {
+      "userId": "2",
+      "id": "10",
+      "title": "Cabane dans les bois",
+      "place": "Dordogne, France",
+      "rooms": 1,
+      "available": true,
+      "accommodates": 2,
+      "parking": "Gratuit",
+      "amenities": [
+        "Nature",
+        "Cheminée",
+        "Randonnée",
+        "Animaux acceptés"
+      ],
+      "photo": "maison10.jpg",
+      "price_per_night": 100,
+      "availability_range": {
+        "month": "Mars",
+        "days": [
+          1,
+          14
+        ]
+      }
+    },
+    {
+      "userId": "2",
+      "id": "11",
+      "title": "Appartement design en bord de mer",
+      "place": "Cannes, France",
+      "rooms": 2,
+      "available": true,
+      "accommodates": 4,
+      "parking": "Privé",
+      "amenities": [
+        "Wi-Fi",
+        "Balcon vue mer",
+        "Climatisation",
+        "Cuisine moderne"
+      ],
+      "photo": "maison11.jpg",
+      "price_per_night": 300,
+      "availability_range": {
+        "month": "Août",
+        "days": [
+          5,
+          19
+        ]
+      }
+    },
+    {
+      "userId": "1",
+      "id": "12",
+      "title": "Maison historique au cœur de la ville",
+      "place": "Bordeaux, France",
+      "rooms": 3,
+      "available": false,
+      "accommodates": 6,
+      "parking": "Gratuit",
+      "amenities": [
+        "Jardin",
+        "Cheminée",
+        "Wi-Fi",
+        "Proche restaurants"
+      ],
+      "photo": "maison12.jpg",
+      "price_per_night": 250,
+      "availability_range": {
+        "month": "Mai",
+        "days": [
+          15,
+          30
+        ]
+      }
+    },
+    {
+      "userId": "2",
+      "id": "13",
+      "title": "Villa moderne avec rooftop",
+      "place": "Montpellier, France",
+      "rooms": 4,
+      "available": true,
+      "accommodates": 8,
+      "parking": "Privé",
+      "amenities": [
+        "Rooftop",
+        "Piscine",
+        "Climatisation",
+        "Vue panoramique"
+      ],
+      "photo": "maison13.jpg",
+      "price_per_night": 450,
+      "availability_range": {
+        "month": "Février",
+        "days": [
+          10,
+          25
+        ]
+      }
+    },
+    {
+      "userId": "1",
+      "id": "14",
+      "title": "Tiny house écologique",
+      "place": "Auvergne, France",
+      "rooms": 1,
+      "available": true,
+      "accommodates": 2,
+      "parking": "Gratuit",
+      "amenities": [
+        "Nature",
+        "Éco-responsable",
+        "Terrasse",
+        "Randonnée"
+      ],
+      "photo": "maison14.jpg",
+      "price_per_night": 130,
+      "availability_range": {
+        "month": "Octobre",
+        "days": [
+          3,
+          20
+        ]
+      }
+    },
+    {
+      "userId": "2",
+      "id": "15",
+      "title": "Cottage romantique avec spa privé",
+      "place": "Normandie, France",
+      "rooms": 2,
+      "available": false,
+      "accommodates": 4,
+      "parking": "Privé",
+      "amenities": [
+        "Spa",
+        "Cheminée",
+        "Jardin",
+        "Wi-Fi"
+      ],
+      "photo": "maison15.jpg",
+      "price_per_night": 300,
+      "availability_range": {
+        "month": "Décembre",
+        "days": [
+          5,
+          15
+        ]
+      }
+    },
+    {
+      "userId": "1",
+      "id": "16",
+      "title": "Penthouse luxueux avec jacuzzi",
+      "place": "Nice, France",
+      "rooms": 3,
+      "available": true,
+      "accommodates": 6,
+      "parking": "Payant",
+      "amenities": [
+        "Jacuzzi",
+        "Vue mer",
+        "Balcon",
+        "Wi-Fi haut débit"
+      ],
+      "photo": "maison16.jpg",
+      "price_per_night": 500,
+      "availability_range": {
+        "month": "Juin",
+        "days": [
+          8,
+          22
+        ]
+      }
+    },
+    {
+      "userId": "2",
+      "id": "17",
+      "title": "Cabane en bord de lac",
+      "place": "Savoie, France",
+      "rooms": 2,
+      "available": true,
+      "accommodates": 5,
+      "parking": "Gratuit",
+      "amenities": [
+        "Lac privé",
+        "Barbecue",
+        "Pêche",
+        "Cheminée"
+      ],
+      "photo": "maison17.jpg",
+      "price_per_night": 180,
+      "availability_range": {
+        "month": "Janvier",
+        "days": [
+          2,
+          17
+        ]
+      }
+    },
+    {
+      "userId": "2",
+      "id": "18",
+      "title": "Appartement cosy proche des musées",
+      "place": "Lille, France",
+      "rooms": 1,
+      "available": true,
+      "accommodates": 3,
+      "parking": "Public",
+      "amenities": [
+        "Wi-Fi",
+        "Proche centre-ville",
+        "Cuisine équipée"
+      ],
+      "photo": "maison18.jpg",
+      "price_per_night": 150,
+      "availability_range": {
+        "month": "Avril",
+        "days": [
+          10,
+          24
+        ]
+      }
+    },
+    {
+      "userId": "1",
+      "id": "19",
+      "title": "Ferme rénovée avec piscine",
+      "place": "Alsace, France",
+      "rooms": 5,
+      "available": false,
+      "accommodates": 10,
+      "parking": "Privé",
+      "amenities": [
+        "Piscine chauffée",
+        "Jardin",
+        "Cuisine campagnarde",
+        "Animaux acceptés"
+      ],
+      "photo": "maison19.jpg",
+      "price_per_night": 400,
+      "availability_range": {
+        "month": "Juillet",
+        "days": [
+          5,
+          19
+        ]
+      }
+    },
+    {
+      "userId": "1",
+      "id": "20",
+      "title": "Maison troglodyte unique",
+      "place": "Loire Valley, France",
+      "rooms": 3,
+      "available": true,
+      "accommodates": 6,
+      "parking": "Gratuit",
+      "amenities": [
+        "Cave naturelle",
+        "Cheminée",
+        "Wi-Fi",
+        "Hébergement unique"
+      ],
+      "photo": "maison20.jpg",
+      "price_per_night": 350,
+      "availability_range": {
+        "month": "Mars",
+        "days": [
+          12,
+          27
+        ]
+      }
+    },
+    {
+      "id": "61dbaf4ln",
+      "title": "beach house",
+      "place": "la rochelle, France",
+      "rooms": 5,
+      "available": true,
+      "accommodates": 2,
+      "parking": "oui,privé et securisé",
+      "amenities": [
+        "cuisine",
+        "piscine",
+        "park",
+        "jardin"
+      ],
+      "photo": "beach.jpg",
+      "price_per_night": 200,
+      "availability_range": {
+        "month": "decembre",
+        "days": [
+          8,
+          12
+        ]
+      }
+    }
+  ],
+  "users": [
+    {
+      "username": "priya",
+      "user_password": 1992,
+      "id": "1"
+    },
+    {
+      "username": "axel",
+      "user_password": 1234,
+      "id": "2"
+    },
+    {
+      "id": "61dbaf4ln",
+      "title": "beach house",
+      "place": "la rochelle, France",
+      "rooms": 5,
+      "available": true,
+      "accommodates": 2,
+      "parking": "oui,privé et securisé",
+      "amenities": [
+        "cuisine",
+        "piscine",
+        "park",
+        "jardin"
+      ],
+      "photo": "beach.jpg",
+      "price_per_night": 200,
+      "availability_range": {
+        "month": "decembre",
+        "days": [
+          8,
+          12
+        ]
+      }
+    }
+  ]
+}
